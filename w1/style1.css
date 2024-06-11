@@ -1,0 +1,37 @@
+body {
+    background-color: darkblue;
+    
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    flex: 1;
+}
+
+li a {
+    display: block;
+    color: black;
+    background-color: grey;
+    text-align: center;
+    text-decoration: underline ;
+    padding: 10px;
+    margin: 10px;
+}
+
+.current a {
+    background-color: white;
+    color: black;
+}
