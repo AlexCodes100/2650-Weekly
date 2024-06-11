@@ -6,6 +6,9 @@ body {
 }
 
 ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   border: 2px solid #ccc;
   list-style: none;
   padding: 0;
@@ -14,6 +17,9 @@ ul {
 }
 
 li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #310b5e;
   border: 2px solid #77a6b6;
   border-radius: 0.5em;

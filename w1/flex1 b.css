@@ -6,6 +6,9 @@ body {
 }
 
 ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
   border: 2px solid #ccc;
   list-style: none;
   padding: 0;
@@ -14,6 +17,9 @@ ul {
 }
 
 li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #310b5e;
   border: 2px solid #77a6b6;
   border-radius: 0.5em;
@@ -21,4 +27,16 @@ li {
   text-align: center;
   width: 150px;
   height: 150px;
+}
+
+li:nth-child(1) {
+  transform: translate(0px, 0px);
+}
+
+li:nth-child(2) {
+  transform: translate(20px, -200px);
+}
+
+li:nth-child(3) {
+  transform: translate(40px, -350px);
 }
