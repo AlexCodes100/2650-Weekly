@@ -1,0 +1,17 @@
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 0, 100;
+  }
+  100% {
+    stroke-dasharray: 100, 0;
+  }
+}
+
+path {
+  fill: none;
+  stroke: black;
+  stroke-width: 2;
+  stroke-dasharray: 0, 100;
+  animation: draw 4s forwards;
+}
